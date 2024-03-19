@@ -14,7 +14,7 @@ pipeline
 			stage("Run")
 				{
 				steps
-					
+					{
 					sh "bash venky.sh"
 					}
 				}
